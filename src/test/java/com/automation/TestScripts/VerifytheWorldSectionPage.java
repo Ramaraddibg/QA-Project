@@ -10,7 +10,7 @@ import org.testng.annotations.Listeners;
 @Listeners(com.automation.generic.ListenersClass.class)
 public class VerifytheWorldSectionPage extends BaseTest
 {
-	//@Test
+	@Test
 	public void VeifyTheWorld()
 	{
 		WebElement worldSection = driver.findElement(By.linkText("World"));

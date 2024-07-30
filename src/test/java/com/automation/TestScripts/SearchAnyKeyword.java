@@ -9,7 +9,7 @@ import com.automation.generic.BaseTest;
 @Listeners(com.automation.generic.ListenersClass.class)
 public class SearchAnyKeyword extends BaseTest
 {
-	//@Test
+	@Test
 	public void Test()
 	{
 		Nyhomepage pom = new Nyhomepage(driver);

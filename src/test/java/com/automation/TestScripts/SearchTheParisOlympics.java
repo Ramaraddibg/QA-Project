@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 @Listeners(com.automation.generic.ListenersClass.class)
 public class SearchTheParisOlympics extends BaseTest
 {
-	//@Test
+	@Test
 	public void searchParis()
 	{
 		Nyhomepage pom=new Nyhomepage(driver);

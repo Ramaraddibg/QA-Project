@@ -24,6 +24,5 @@ public class VerifyNavigationToOpinion extends BaseTest
 		else {
 			System.out.println("Failed to navigate to Opinion section.");
 		}
-
 	}
 }
