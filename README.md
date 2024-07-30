@@ -1,12 +1,10 @@
+# assessment_project
 Assessment for Dubai Municipality
 The detailed test cases for NY times portal
-1. To verify the broken links present in the webpage
+1. To verify the opinion section present in the webpage
 2. To search any word in the web portal search text bar
 3. To search paris olympics in Tthe search text bar & verify the text present in the webpage
 4. To verify the word section present in the home page.
-3. To search any word in the web portal search text bar
-4. To search paris olympics in Tthe search text bar & verify the text present in the webpage
-5. To verify the word section present in the home page.
 Perform the cross browsing testing & parallel testing.
 
 **Project Explaination**
@@ -32,8 +30,8 @@ Here we configure to get the screenshot of the webpage to get the execution fail
 
 Create one more generic package for the test scripts.
 The detailed test cases for NY times portal
-1. To verify the broken links present in the webpage
-3. To search any word in the web portal search text bar
-4. To search paris olympics in Tthe search text bar & verify the text present in the webpage
-5. To verify the word section present in the home page.
+1. To verify the opinion section present in the webpage
+2. To search any word in the web portal search text bar
+3. To search paris olympics in Tthe search text bar & verify the text present in the webpage
+4. To verify the word section present in the home page.
 Perform the cross browsing testing & parallel testing.
