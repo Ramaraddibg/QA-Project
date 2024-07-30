@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test Cross chrome">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.TestScripts.SearchAnyKeyword"/>
+      <class name="com.automation.TestScripts.VerifytheWorldSectionPage"/>
+      <class name="com.automation.TestScripts.SearchTheParisOlympics"/>
+      <class name="com.automation.TestScripts.BrokenLinkVerifyClass"/>
+    </classes>
+  </test> <!-- Test Cross -->
+</suite> <!-- Suite -->
