@@ -1,4 +1,4 @@
-package com.automation.generic;
+package com.automation.Utility;
 
 import java.io.File;
 import java.io.IOException;
@@ -10,8 +10,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.testng.ITestResult;
 
-public class screenshotclass implements Framework_Constants_QA
-{
+import com.automation.generic.BaseTest;
+
+public class ScreenshotClass extends BaseTest
+{	
 	public static void getPhoto(WebDriver driver,ITestResult result)
 	{
 		Date d=new Date();
@@ -35,4 +37,5 @@ public class screenshotclass implements Framework_Constants_QA
 			e.printStackTrace();
 		}
 	}
+
 }

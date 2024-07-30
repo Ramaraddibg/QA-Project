@@ -1,12 +1,15 @@
-package com.automation.generic;
+package com.automation.POM;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class pageObjectmodel 
+import com.automation.generic.BaseTest;
+
+public class Nyhomepage extends BaseTest
 {
+
 	//Declaring the elements address
 	
 	@FindBy(xpath = "(//button[@aria-expanded='false'])[1]")
@@ -20,7 +23,7 @@ public class pageObjectmodel
 	
 	// Initialising the elements address
 	
-	public pageObjectmodel(WebDriver driver)
+	public Nyhomepage(WebDriver driver)
 	{
 		PageFactory.initElements(driver,this);
 	}
@@ -39,6 +42,5 @@ public class pageObjectmodel
 	{
 		return Go_btn;
 	}
-	
 	
 }

@@ -2,26 +2,33 @@ package com.automation.TestScripts;
 
 import org.testng.annotations.Test;
 
-import com.automation.generic.BaseClass;
-import com.automation.generic.pageObjectmodel;
+import com.automation.POM.Nyhomepage;
+import com.automation.generic.BaseTest;
 
+import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import com.automation.generic.BaseClass;
-import com.automation.generic.pageObjectmodel;
-@Listeners(com.automation.generic.ListnersClass.class)
-public class SearchTheParisOlympics extends BaseClass
+@Listeners(com.automation.generic.ListenersClass.class)
+public class SearchTheParisOlympics extends BaseTest
 {
 	//@Test
 	public void searchParis()
 	{
-		pageObjectmodel pom=new pageObjectmodel(driver);
+		Nyhomepage pom=new Nyhomepage(driver);
 
+		// Assert that the search button is clickable
+        Assert.assertTrue(pom.searchButton().isEnabled(), "Go button is not clickable");
+        
 		pom.searchButton().click();
 
+		// Assert that the search text field is displayed and enabled
+        Assert.assertTrue(pom.searchTextField().isDisplayed(), "Search text field is not displayed");
+        Assert.assertTrue(pom.searchTextField().isEnabled(), "Search text field is not enabled");
 		pom.searchTextField().sendKeys("paris olympics");
 
+
+		// Assert that the Go button is clickable
+        Assert.assertTrue(pom.GoButton().isEnabled(), "Go button is not clickable");
 		pom.GoButton().click();
 
 		if(driver.getTitle().contains("search"))

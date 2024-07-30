@@ -1,9 +1,11 @@
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\Framework_Constants_QA.java
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\BaseClass.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\Utility\ScreenshotClass.java
 C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\TestScripts\SearchAnyKeyword.java
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\screenshotclass.java
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\pageObjectmodel.java
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\ListnersClass.java
-C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\TestScripts\BrokenLinkVerifyClass.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\POM\LoginPom.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\TestScripts\VerifyNavigationToOpinion.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\POM\Nyhomepage.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\Utility\Framework_Constants_QA.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\Utility\ListenersClass.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\BaseTest.java
 C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\TestScripts\SearchTheParisOlympics.java
+C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\generic\ListenersClass.java
 C:\Users\ragulaganjikoppa\eclipse-workspace\QA-Project\src\test\java\com\automation\TestScripts\VerifytheWorldSectionPage.java

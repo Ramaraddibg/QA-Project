@@ -4,16 +4,11 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import com.automation.generic.BaseClass;
+import com.automation.generic.BaseTest;
 
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
-import org.testng.annotations.Test;
-
-import com.automation.generic.BaseClass;
-import com.automation.generic.pageObjectmodel;
-@Listeners(com.automation.generic.ListnersClass.class)
-public class VerifytheWorldSectionPage extends BaseClass
+@Listeners(com.automation.generic.ListenersClass.class)
+public class VerifytheWorldSectionPage extends BaseTest
 {
 	//@Test
 	public void VeifyTheWorld()

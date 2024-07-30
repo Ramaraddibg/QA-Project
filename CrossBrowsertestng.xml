@@ -6,7 +6,7 @@
       <class name="com.automation.TestScripts.SearchAnyKeyword"/>
       <class name="com.automation.TestScripts.VerifytheWorldSectionPage"/>
       <class name="com.automation.TestScripts.SearchTheParisOlympics"/>
-      <class name="com.automation.TestScripts.BrokenLinkVerifyClass"/>
+      <class name="com.automation.TestScripts.VerifyNavigationToOpinion"/>
     </classes>
   </test> <!-- Test Cross -->
 </suite> <!-- Suite -->

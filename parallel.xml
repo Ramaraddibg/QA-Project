@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite  name="Parallel Testing" parallel="methods">
+  <test name="Test Parallel">
+    <classes>
+      <class name="com.automation.TestScripts.VerifytheWorldSectionPage"/>
+      <class name="com.automation.TestScripts.SearchAnyKeyword"/>
+      <class name="com.automation.TestScripts.SearchTheParisOlympics"/>
+      <class name="com.automation.TestScripts.VerifyNavigationToOpinion"/>
+    </classes>
+  </test> <!-- Test Parallel -->
+</suite> <!-- Parallel Testing -->

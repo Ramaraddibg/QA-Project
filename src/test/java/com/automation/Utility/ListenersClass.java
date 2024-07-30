@@ -1,10 +1,12 @@
-package com.automation.generic;
+package com.automation.Utility;
 
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class ListnersClass extends BaseClass implements ITestListener {
+import com.automation.generic.BaseTest;
 
+public class ListenersClass extends BaseTest implements ITestListener
+{
 	@Override
 	public void onTestSuccess(ITestResult result) {
 		System.out.println("test case pass");
@@ -13,10 +15,6 @@ public class ListnersClass extends BaseClass implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		System.out.println("test case is fail"+result.getName());
-		screenshotclass.getPhoto(this.driver, result);
+		ScreenshotClass.getPhoto(this.driver, result);
 	}
-
-	
 }
-
-
