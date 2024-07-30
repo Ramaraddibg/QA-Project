@@ -3,7 +3,7 @@
 <suite name="Parallel Testing" thread-count="5" parallel="methods">
   <test name="Test Parallel">
     <classes>
-      <class name="com.automation.TestScripts.VerifytheWorldSectionPage"/>
+     <class name="com.automation.TestScripts.VerifytheWorldSectionPage"/>
       <class name="com.automation.TestScripts.SearchAnyKeyword"/>
     </classes>
   </test> <!-- Test Parallel -->

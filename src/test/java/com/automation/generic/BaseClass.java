@@ -61,12 +61,12 @@ public class BaseClass
 	public  void nyTimeLogin()
 	{
 		driver.get("https://www.nytimes.com/international/");
-//		driver.findElement(By.xpath("//span[text()='Log in']")).click();
-//		driver.findElement(By.id("email")).sendKeys("bgramaraddi@gmail.com");
-//		driver.findElement(By.xpath("//button[@type='submit']")).click();
-//		driver.findElement(By.id("password")).sendKeys("Wrongpassword@1994");
-//		driver.findElement(By.xpath("//button[@type='submit']")).click();
-//		driver.findElement(By.xpath("//a[@class='css-1dhib8']")).click();
+		driver.findElement(By.xpath("//span[text()='Log in']")).click();
+		driver.findElement(By.id("email")).sendKeys("bgramaraddi@gmail.com");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.id("password")).sendKeys("Wrongpassword@1994");
+		driver.findElement(By.xpath("//button[@type='submit']")).click();
+		driver.findElement(By.xpath("//a[@class='css-1dhib8']")).click();
 		
 	}
 	

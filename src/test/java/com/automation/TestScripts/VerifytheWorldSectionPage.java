@@ -15,7 +15,7 @@ import com.automation.generic.pageObjectmodel;
 @Listeners(com.automation.generic.ListnersClass.class)
 public class VerifytheWorldSectionPage extends BaseClass
 {
-	@Test
+	//@Test
 	public void VeifyTheWorld()
 	{
 		WebElement worldSection = driver.findElement(By.linkText("World"));

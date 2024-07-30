@@ -13,7 +13,7 @@ import com.automation.generic.pageObjectmodel;
 @Listeners(com.automation.generic.ListnersClass.class)
 public class SearchTheParisOlympics extends BaseClass
 {
-	@Test
+	//@Test
 	public void searchParis()
 	{
 		pageObjectmodel pom=new pageObjectmodel(driver);

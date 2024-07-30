@@ -3,17 +3,6 @@
 <suite parallel="methods" name="Failed suite [Parallel Testing]">
   <test thread-count="5" parallel="methods" name="Test Parallel(failed)">
     <classes>
-      <class name="com.automation.TestScripts.VerifytheWorldSectionPage">
-        <methods>
-          <include name="nyTimeLogin"/>
-          <include name="Reports"/>
-          <include name="Openapp"/>
-          <include name="closeapp"/>
-          <include name="VeifyTheWorld"/>
-          <include name="logout"/>
-          <include name="flush"/>
-        </methods>
-      </class> <!-- com.automation.TestScripts.VerifytheWorldSectionPage -->
       <class name="com.automation.TestScripts.SearchAnyKeyword">
         <methods>
           <include name="nyTimeLogin"/>

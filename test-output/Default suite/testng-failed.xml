@@ -3,17 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.TestScripts.VerifytheWorldSectionPage">
+      <class name="com.automation.TestScripts.SearchAnyKeyword">
         <methods>
           <include name="nyTimeLogin"/>
           <include name="Reports"/>
           <include name="Openapp"/>
           <include name="closeapp"/>
-          <include name="VeifyTheWorld"/>
+          <include name="Test"/>
           <include name="logout"/>
           <include name="flush"/>
         </methods>
-      </class> <!-- com.automation.TestScripts.VerifytheWorldSectionPage -->
+      </class> <!-- com.automation.TestScripts.SearchAnyKeyword -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
