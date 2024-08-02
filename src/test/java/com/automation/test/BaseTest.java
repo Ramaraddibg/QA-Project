@@ -24,7 +24,7 @@ public class BaseTest
 	public ExtentTest test;
 	public propertyFile prop;
 
-	@BeforeTest    //Generating the report
+	@BeforeTest //Generating the report
 	public void reports()
 	{
 		prop=new propertyFile();
