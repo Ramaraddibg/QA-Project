@@ -2,7 +2,6 @@ package com.automation.test;
 import java.time.Duration;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.Assert;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.automation.POM.Nyhomepage;
@@ -31,5 +30,4 @@ public class SearchFunctionalityTest extends BaseTest
 			System.out.println("text is not present.");
 		}
 	}
-
 }
