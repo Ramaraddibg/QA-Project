@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.automation.TestScripts.VerifyNavigationToOpinion">
+      <class name="com.automation.test.HomePageTest">
         <methods>
-          <include name="nyTimeLogin"/>
-          <include name="VerifyOpinion"/>
           <include name="flush"/>
-          <include name="Openapp"/>
-          <include name="closeapp"/>
-          <include name="Reports"/>
-          <include name="logout"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="verifyTheWorld"/>
+          <include name="VerifyOpinion"/>
         </methods>
-      </class> <!-- com.automation.TestScripts.VerifyNavigationToOpinion -->
+      </class> <!-- com.automation.test.HomePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

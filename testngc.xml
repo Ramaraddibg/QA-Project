@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NYSuiteForCrossBrowsing" parallel="tests"
+	thread-count="3">
+	<test name="ChromeTests">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.automation.generic.Login" />
+			<class name="com.automation.test.HomePageTitle" />
+			<class name="com.automation.test.SearchFunctionalityTest" />
+			<class name="com.automation.test.HomePageTest" />
+		</classes>
+	</test> <!-- Test Cross -->
+	<test name="firefoxTests">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.automation.generic.Login" />
+			<class name="com.automation.test.HomePageTitle" />
+			<class name="com.automation.test.SearchFunctionalityTest" />
+			<class name="com.automation.test.HomePageTest" />
+		</classes>
+	</test>
+</suite> <!-- NYSuiteForCrossBrowsing -->

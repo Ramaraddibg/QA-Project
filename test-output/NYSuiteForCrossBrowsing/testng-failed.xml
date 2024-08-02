@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [NYSuiteForCrossBrowsing]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="firefoxTests(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.automation.test.SearchFunctionalityTest">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="searchAnyKeyword"/>
+        </methods>
+      </class> <!-- com.automation.test.SearchFunctionalityTest -->
+      <class name="com.automation.test.HomePageTitle">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="testTitle"/>
+        </methods>
+      </class> <!-- com.automation.test.HomePageTitle -->
+      <class name="com.automation.generic.Login">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="loginPage"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.automation.generic.Login -->
+      <class name="com.automation.test.HomePageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="verifyTheWorld"/>
+          <include name="VerifyOpinion"/>
+        </methods>
+      </class> <!-- com.automation.test.HomePageTest -->
+    </classes>
+  </test> <!-- firefoxTests(failed) -->
+  <test thread-count="3" parallel="tests" name="ChromeTests(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.automation.test.SearchFunctionalityTest">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="searchAnyKeyword"/>
+        </methods>
+      </class> <!-- com.automation.test.SearchFunctionalityTest -->
+      <class name="com.automation.test.HomePageTitle">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="testTitle"/>
+        </methods>
+      </class> <!-- com.automation.test.HomePageTitle -->
+      <class name="com.automation.test.HomePageTest">
+        <methods>
+          <include name="flush"/>
+          <include name="setup"/>
+          <include name="reports"/>
+          <include name="closeApp"/>
+          <include name="verifyTheWorld"/>
+          <include name="VerifyOpinion"/>
+        </methods>
+      </class> <!-- com.automation.test.HomePageTest -->
+    </classes>
+  </test> <!-- ChromeTests(failed) -->
+</suite> <!-- Failed suite [NYSuiteForCrossBrowsing] -->
